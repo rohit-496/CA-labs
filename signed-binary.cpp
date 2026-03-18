@@ -60,7 +60,7 @@ void rightShift()
 int main()
 {
     int i;
-
+    printf("Rohit Nyaupane 3rd sem CSIT 2081\n");
     printf("\nSIGNED MAGNITUDE MULTIPLICATION (4-bit)\n");
 
     do
@@ -73,7 +73,7 @@ int main()
 
     }while(abs(B)>=16 || abs(Q)>=16);
 
-    printf("\nExpected Product = %d\n",B*Q);
+    printf("\nExpected Product = %d",B*Q);
 
     toBinary(B,M);
     toBinary(Q,Qr);
@@ -84,7 +84,6 @@ int main()
     printf("\nQ = ");
     display(Qr);
 
-    printf("\n");
 
     while(SC>0)
     {

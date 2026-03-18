@@ -114,7 +114,7 @@ void arshift()
 int main()
 {
     int i, q = 0;
-
+    cout<<"Rohit Nyaupane 3rd sem CSIT 2081\n";
     cout << "\t\t****** BOOTH'S MULTIPLICATION ALGORITHM ******\n";
     cout << "\nEnter two numbers to multiply (Both must be less than 16)";
 

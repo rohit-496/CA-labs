@@ -6,6 +6,7 @@ int main()
 {
     string bin, temp, ones, twos;
     int len;
+    cout<<"Rohit Nyaupane 3rd sem CSIT 2081\n";
     cout << "\t\t*****1's and 2's COMPLEMENT******\n\n";
     cout << "Enter a valid binary number: ";
     cin >> bin;
